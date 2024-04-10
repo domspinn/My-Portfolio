@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header nav{
+    background-image: linear-gradient(to right, black, white);
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    font-size: 20px;
+}
+
+.links {
+    list-style: none;
+    display: inline-flex;
+
+}
+
+nav h2 {
+    color: white;
+}
+
+.links li {
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.intro-content {
+    text-align: center;
+}
+
+.intro-content h1, h3 {
+    line-height: 50px;
+}
+
+.intro-content h1 {
+    font-size: 40px;
+}
+
+.intro-content h3 {
+    font-size: 20px;
+}
+
+.portrait {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content button {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.intro-content button:hover {
+    transform: scale(1.05);
+}
+
+#about {
+    text-align: center;
+    background-image: linear-gradient(white, black);
+    padding-bottom: 50px;
+}
+
+.more h3 {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+.more h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.more {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    margin: 0 10rem;
+    align-items: center;
+}
+
+.about-section p {
+    border: 2px;
+    border-style: solid;
+    padding: 30px;
+    border-radius: 30px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.uconn {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.work {
+    text-align: center;
+    background-image: linear-gradient(black, white);
+    padding-top: 50px;
+}
+
+.more-work h3 {
+    font-size: 15px;
+}
+
+.more-work h1 {
+    font-size: 40px;
+}
+
+.more-work {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.work-content section button {
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.work-content section button:hover {
+    transform: scale(1.05);
+}
+
+.work-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.work-content section {
+    border: 3px solid;
+    padding: 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.work-content section h1 {
+    margin-top: 20px;
+}
+
+.work-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.contact {
+    text-align: center;
+    background-image: linear-gradient(white, black);;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-elements h3 {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 6px;
+    margin-top: 20px;
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.contact-elements h3:hover {
+    color: burlywood;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.links a {
+    color: inherit;
+    text-decoration: none;
+}
+
