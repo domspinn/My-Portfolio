@@ -1,12 +1,17 @@
 * {
     margin: 0%;
     padding: 0%;
+    color: inherit;
+    text-decoration: none;
 }
 
 body {
     font-family: sans-serif;
 }
 
+
+
+/* Header Section */
 header nav{
     background-image: linear-gradient(to right, black, white);
     height: 17vh;
@@ -22,7 +27,6 @@ nav {
 .links {
     list-style: none;
     display: inline-flex;
-
 }
 
 nav h2 {
@@ -36,6 +40,15 @@ nav h2 {
     cursor: pointer;
 }
 
+.links a {
+    color: inherit;
+    text-decoration: none;
+}
+/* END OF SECTION */
+
+
+
+/* Intro Page Section */
 .intro {
     display: flex;
     align-items: center;
@@ -81,7 +94,11 @@ nav h2 {
 .intro-content button:hover {
     transform: scale(1.05);
 }
+/* END OF SECTION */
 
+
+
+/* About Me Section */
 #about {
     text-align: center;
     background-image: linear-gradient(white, black);
@@ -128,7 +145,11 @@ nav h2 {
     width: 250px;
     margin-bottom: 40px;
 }
+/* END OF SECTION */
 
+
+
+/* Work Section */
 .work {
     text-align: center;
     background-image: linear-gradient(black, white);
@@ -192,8 +213,11 @@ nav h2 {
     height: auto;
     border-radius: 30px;
 }
+/* END OF SECTION */
 
 
+
+/* Contact Section */
 .contact {
     text-align: center;
     background-image: linear-gradient(white, black);;
@@ -219,13 +243,4 @@ nav h2 {
     color: burlywood;
     transform: scale(1.1);
 }
-
-
-
-
-
-.links a {
-    color: inherit;
-    text-decoration: none;
-}
-
+/* END OF SECTION */
