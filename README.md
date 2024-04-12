@@ -1,1 +1,3 @@
 # My-Portfolio
+
+This repository hosts the HTML and CSS for my portfolio. I created a portfolio that uses flex wrap to make the webpage responsive to different sizes. I also made sure I included different styling types that we learned for buttons and links. Every project that is on my portfolio has a link to the github repositor and a link to the deployed website. I made sure to include an about me and contact section aswell. My webpage uses the classic navigation header style page with a logo in the top left. The intro page has a picture of me and basic socials that you can interact with responsively.
